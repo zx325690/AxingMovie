@@ -13,7 +13,7 @@ Page({
     //请求数据集合
     test.get().then((res) => {
       var data=res.data[0];
-      //console.log(data)
+      //console.log(data1)
           //封装数据
           that.setData({
             _id:data._id,
