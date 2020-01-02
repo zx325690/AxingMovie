@@ -34,7 +34,7 @@ page{
   margin-right: 20rpx;
 }
 .meta{
-  flex:1;
+  flex: 1;
 }
  .item.title,.item.sub-title{
   display: block;

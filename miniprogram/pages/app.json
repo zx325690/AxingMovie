@@ -8,7 +8,7 @@
   "window": {
     "navigationBarBackgroundColor": "#35495e",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "阿幸电影",
+    "navigationBarTitleText": "豆瓣电影",
     "backgroundColor": "#fff",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": true
