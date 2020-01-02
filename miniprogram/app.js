@@ -1,4 +1,4 @@
-//app.js
+//app.js 就感觉
 App({
   onLaunch: function () {
     
