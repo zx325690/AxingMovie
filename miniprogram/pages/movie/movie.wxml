@@ -1,4 +1,5 @@
 <scroll-view scroll-y="true">
+<navigator url="../courseVideoPlayer/courseVideoPlayer">
     <view class="meta">
         <image class="poster" src="{{movie.images.large}}" background-size="cover"></image>
         <text class="title">{{movie.titleB}}({{movie.year}})</text>
@@ -10,4 +11,5 @@
       <text class="label">摘要：</text>
       <text class="content">{{movie.summary}}</text>
     </view>
+    </navigator>
 </scroll-view>
