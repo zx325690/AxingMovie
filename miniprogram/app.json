@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/search/search",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "阿幸电影",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "推荐电影",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "发现电影",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search_black.png",
+        "pagePath": "pages/search/search"
+      },
+      {
+        "text": "我的电影",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png",
+        "pagePath": "pages/profile/profile"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap25.json"
+}
