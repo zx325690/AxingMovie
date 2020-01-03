@@ -2,7 +2,7 @@
 
   <!--poster="{{coverImageUrl}}" -->
 
-  <video id="myVideo" class="myVideo" src="http://www.xiamp4.org/js/player/dplayer/dplayer.html?videourl=/play/735-0-1.html,https://youku.com-qq.net/20190810/16961_b565dcaf/index.m3u8,,735,0,1" autoplay='false' controls="{{true}}" bindtimeupdate='timeUpdate' bindended='endAction' objectFit='cover' show-center-play-btn = true  controls  danmu-btn page-gesture = "true" enable-progress-gesture = true custom-cache="{{true}}">
+  <video id="myVideo" class="myVideo" src="https://6178-axingmovie-test-1301033618.tcb.qcloud.la/fuchouzhe4.mp4?sign=bc658092873b9bead0f858e1973de59c&t=1578062480" autoplay='false' controls="{{true}}" bindtimeupdate='timeUpdate' bindended='endAction' objectFit='cover' show-center-play-btn = true  controls  danmu-btn page-gesture = "true" enable-progress-gesture = true custom-cache="{{true}}">
 
     <!-- <cover-view bindtap='startFirstPlayAction' class='cover-view' wx:if="{{isShowCoverView}}"></cover-view>  -->
 

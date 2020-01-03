@@ -23,4 +23,14 @@ Component({
   onLoad() {
     
   }
+  
+})
+wx.getStorage({
+  
+  key: 'cloud://axingmovie-test.6178-axingmovie-test-1301033618/fuchouzhe4.mp4',
+  //对应存储的key名
+  success: function (res) {
+    //成功之后的操作，建议还是先打印res找到需要的东西
+    console.info(res);
+  }
 })
