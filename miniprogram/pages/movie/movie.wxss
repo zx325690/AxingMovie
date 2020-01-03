@@ -15,7 +15,7 @@
   color: #444;
 }
 .info{
-  font-size: 18rpx;
+  font-size: 27rpx;
   color: #888;
   margin-top: 20rpx;
   width: 80%;
@@ -29,6 +29,22 @@
 }
 .content{
   color: #666;
-  font-size: 20rpx;
+  font-size: 24rpx;
   padding: 10rpx;
+}
+.scroll{
+  margin-top: 215rpx;
+  height: 800rpx;
+  white-space: normal;
+  background-color: #7fffd4;
+}
+.btn{
+  width: 20%;
+  margin-top: -20rpx;
+  background-color: #FFCC00;
+  color: black;
+  border-radius: 55rpx;
+  right: 30%;
+  font-weight: 500;
+  font-size: 25rpx;
 }

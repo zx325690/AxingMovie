@@ -3,3 +3,9 @@ swiper-item > image {
   height: 200px;
   padding: 0px;
 }
+.scroll{
+  margin-top: 215rpx;
+  height: 800rpx;
+  white-space: normal;
+  background-color: #7fffd4;
+}

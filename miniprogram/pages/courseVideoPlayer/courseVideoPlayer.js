@@ -19,5 +19,8 @@ Component({
    */
   methods: {
 
+  },
+  onLoad() {
+    
   }
 })

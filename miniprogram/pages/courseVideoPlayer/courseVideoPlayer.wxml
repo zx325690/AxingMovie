@@ -2,17 +2,17 @@
 
   <!--poster="{{coverImageUrl}}" -->
 
-  <video id="myVideo" class="myVideo" src="http://www.xiamp4.org/b291bcc7-8113-4b8d-ab50-5b9e8538f357" autoplay='false'  controls='true' bindtimeupdate='timeUpdate' bindended='endAction'>
+  <video id="myVideo" class="myVideo" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" autoplay='false'  controls='true' bindtimeupdate='timeUpdate' bindended='endAction' objectFit='cover' show-center-play-btn = true  controls  danmu-btn page-gesture = "true" enable-progress-gesture = true>
 
     <!-- <cover-view bindtap='startFirstPlayAction' class='cover-view' wx:if="{{isShowCoverView}}"></cover-view>  -->
 
-    <cover-view bindtap='_startFirstPlayAction' class='cover-view' wx:if="{{isShowCoverView}}">
+    <!-- <cover-view bindtap='_startFirstPlayAction' class='cover-view' wx:if="{{isShowCoverView}}">
 
       <cover-image class='cover-view' src="{{coverImageUrl}}" mode="aspectFill"/>
 
       <cover-image style='position:absolute; top:50%; left:50%; width:132rpx; height:132rpx; margin:-66rpx 0 0 -66rpx; z-index:10000' src="/image/video-play.png"/>
 
-    </cover-view>
+    </cover-view> -->
 
   </video>
 

@@ -5,7 +5,7 @@ Page({
   data: {
     movie: {}
   },
-  onLoad: function (options) {
+  onLoad: function(options) {
     var that = this;
     console.info(options);
     //options为上一页传的值 object形式
@@ -15,5 +15,14 @@ Page({
         movie: res.data.movie
       });
     })
+  },
+  watchMovie: function () {
+    wx.redirectTo({
+      url: '../courseVideoPlayer/courseVideoPlayer',
+    })
+    
   }
+  
 })
+
+

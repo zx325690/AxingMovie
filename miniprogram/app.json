@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/movie/movie",
+    "pages/courseVideoPlayer/courseVideoPlayer",
     "pages/search/search",
     "pages/profile/profile"
   ],

@@ -1,6 +1,6 @@
 page{
   font-family: "Microsoft YaHei";
-  background-color: #fff;
+  background-color: black;
   display: flex;
   /*纵向排列*/
   flex-direction: column;
@@ -42,6 +42,8 @@ page{
 } 
 .title{
   font-size: 35rpx;
+  color: #999;
+  font-weight: 600;
 }
 .sub-title{
   font-size: 25rpx;
