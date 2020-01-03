@@ -2,7 +2,7 @@
 
   <!--poster="{{coverImageUrl}}" -->
 
-  <video id="myVideo" class="myVideo" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" autoplay='false'  controls='true' bindtimeupdate='timeUpdate' bindended='endAction' objectFit='cover' show-center-play-btn = true  controls  danmu-btn page-gesture = "true" enable-progress-gesture = true>
+  <video id="myVideo" class="myVideo" src="http://www.xiamp4.org/js/player/dplayer/dplayer.html?videourl=/play/735-0-1.html,https://youku.com-qq.net/20190810/16961_b565dcaf/index.m3u8,,735,0,1" autoplay='false' controls="{{true}}" bindtimeupdate='timeUpdate' bindended='endAction' objectFit='cover' show-center-play-btn = true  controls  danmu-btn page-gesture = "true" enable-progress-gesture = true custom-cache="{{true}}">
 
     <!-- <cover-view bindtap='startFirstPlayAction' class='cover-view' wx:if="{{isShowCoverView}}"></cover-view>  -->
 
